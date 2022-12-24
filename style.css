@@ -1,0 +1,38 @@
+body{
+    background-color: violet;
+}
+.container{
+    margin: 10% 40%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.inpsearch{
+    border: none;
+    border-bottom: 1px solid rgb(173, 76, 173);
+    outline: none;
+    padding: 10px;
+
+}
+button{
+    cursor: pointer;
+    background-color: rgb(173, 76, 173);
+    border: none;
+    border-radius: 40px;
+    color: rgb(225, 188, 133);
+    padding: 0 10px;
+}
+.word{
+    font-size: 46px;
+}
+.phenotics{
+    font-size: 20px;
+    font-weight: 200;
+}
+.example{
+    border-left: 10px solid violet;
+    margin-left: 10px;
+}
