@@ -2,7 +2,10 @@ body{
     background-color: violet;
 }
 .container{
-    margin: 10% 40%;
+    /* margin: 10% 40%; */
+    /* margin: 87% 14%; */
+    margin: 45% 10%;
+    /* margin: 8% 37%; */
     background-color: aliceblue;
     border-radius: 10px;
 }
@@ -36,3 +39,18 @@ button{
     border-left: 10px solid violet;
     margin-left: 10px;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: aliceblue;
+    outline: none;
+    border: none;
+}
+@media screen and (min-width: 961px) {
+    .container{
+        /* margin: 66% 8%; */
+        margin: 8% 37%;
+    }
+  }
